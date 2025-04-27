@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
-import TaskCard from './Taskcard';
+import TaskCard from './TaskCard'
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd'
 
 const TaskBoard = () => {
